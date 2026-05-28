@@ -42,6 +42,15 @@ Required parameters are never touched so genuine validation errors still surface
 | `scope`   | `"mcp"` \| `"all"` | `"mcp"` | Which tools to apply to                        |
 | `verbose` | `boolean`           | `false` | Log each stripped key to stderr for debugging  |
 
+## Publishing
+
+```bash
+npm publish
+```
+
+The package is unscoped so it publishes as public by default. Bump the
+`version` in `package.json` before each release.
+
 ## License
 
 MIT
