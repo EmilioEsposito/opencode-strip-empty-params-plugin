@@ -45,6 +45,7 @@ Required parameters are never touched so genuine validation errors still surface
 ## Publishing
 
 ```bash
+npm login     # one-time, opens browser to authenticate with npmjs.org
 npm publish
 ```
 
