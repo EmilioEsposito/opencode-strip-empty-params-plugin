@@ -1,11 +1,12 @@
 {
   "name": "opencode-strip-empty-params-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Strips empty-string values from non-required MCP tool-call arguments before the call reaches the server. Fixes LLM function-calling quirks where models emit every optional key with an empty default.",
   "license": "MIT",
   "type": "module",
-  "main": "index.ts",
+  "main": "index.js",
   "files": [
+    "index.js",
     "index.ts"
   ],
   "keywords": [
