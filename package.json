@@ -20,6 +20,11 @@
     "type": "git",
     "url": "git+https://github.com/EmilioEsposito/opencode-strip-empty-params-plugin.git"
   },
+  "bugs": {
+    "url": "https://github.com/EmilioEsposito/opencode-strip-empty-params-plugin/issues"
+  },
+  "homepage": "https://github.com/EmilioEsposito/opencode-strip-empty-params-plugin#readme",
+  "author": "Emilio Esposito",
   "peerDependencies": {
     "@opencode-ai/plugin": "*"
   }

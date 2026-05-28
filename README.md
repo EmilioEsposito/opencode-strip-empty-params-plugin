@@ -1,5 +1,10 @@
 # opencode-strip-empty-params-plugin
 
+[![npm version](https://img.shields.io/npm/v/opencode-strip-empty-params-plugin.svg)](https://www.npmjs.com/package/opencode-strip-empty-params-plugin)
+[![npm downloads](https://img.shields.io/npm/dm/opencode-strip-empty-params-plugin.svg)](https://www.npmjs.com/package/opencode-strip-empty-params-plugin)
+[![license](https://img.shields.io/npm/l/opencode-strip-empty-params-plugin.svg)](https://github.com/EmilioEsposito/opencode-strip-empty-params-plugin/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-source-black?logo=github)](https://github.com/EmilioEsposito/opencode-strip-empty-params-plugin)
+
 An [opencode](https://opencode.ai) plugin that strips empty-string values from
 non-required MCP tool-call arguments before the call reaches the server.
 
@@ -24,8 +29,11 @@ Required parameters are never touched so genuine validation errors still surface
 
 ## Installation
 
+```bash
+# in opencode.json
+```
+
 ```jsonc
-// opencode.json
 {
   "plugin": [
     "opencode-strip-empty-params-plugin"
@@ -42,6 +50,12 @@ Required parameters are never touched so genuine validation errors still surface
 | `scope`   | `"mcp"` \| `"all"` | `"mcp"` | Which tools to apply to                        |
 | `verbose` | `boolean`           | `false` | Log each stripped key to stderr for debugging  |
 
+## Links
+
+- [npm package](https://www.npmjs.com/package/opencode-strip-empty-params-plugin)
+- [GitHub repository](https://github.com/EmilioEsposito/opencode-strip-empty-params-plugin)
+- [opencode plugin docs](https://opencode.ai/docs/plugins)
+
 ## Publishing
 
 ```bash
@@ -54,4 +68,4 @@ The package is unscoped so it publishes as public by default. Bump the
 
 ## License
 
-MIT
+[MIT](LICENSE)
